@@ -1,12 +1,14 @@
 import React from 'react'
 import './App.css'
-import Home from './components/Home'
+import ClassComponent from './components/ClassComponent'
+import FuncComponent from './components/FuncComponent'
 
 function App() {
 
   return (
     <>
-      <Home/>
+      <ClassComponent/>
+      <FuncComponent/>
     </>
   )
 }
